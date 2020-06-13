@@ -1,10 +1,15 @@
 from flask import Flask, redirect, url_for, render_template
+import os
 
 app = Flask(__name__)
 
+files_folder = os.path.join('static')
+
 @app.route("/")
+@app.route("/index")
 def home():
-    return render_template("index.html")
+    background_filename = os.path.join(files_folder, "BlurredPurdueBackground.jpg")
+    return render_template("index.html", background=background_filename)
 
 @app.route("/projects")
 def projects():

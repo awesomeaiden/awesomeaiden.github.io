@@ -1,5 +1,36 @@
 {% extends "base.html" %}
 {% block title %}Aiden Gonzalez{% endblock %}
 {% block content %}
-<h1>Home Page</h1>
+<div class="jumbotron">
+    <div class="bg-image"></div>
+    <div class="container">
+        <h1 class="display-3">Aiden Gonzalez</h1>
+        <p style="font-size: 20px">Purdue University Computer Engineering Class of 2022</p>
+    </div>
+</div>
+<!--<hr class="featurette-divider">-->
+<div class="container_home">
+    <div class="row featurette">
+        <div class="col-md-7">
+            <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It’ll blow your mind.</span></h2>
+            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+        </div>
+        <div class="col-md-5">
+            <img src="static/AidenSitting.jpg" style="height: 70%; width: 100%; object-fit: contain" ></img>
+        </div>
+    </div>
+</div>
+<style>
+    div.jumbotron {
+        background-image: url("static/BlurredPurdueBackground.jpg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    div.container_home {
+        flex-wrap: wrap;
+        margin-right: 5%;
+        margin-left: 5%;
+    }
+</style>
 {% endblock %}
