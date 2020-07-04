@@ -3,12 +3,12 @@ import os
 
 app = Flask(__name__)
 
-files_folder = os.path.join('static')
+images_folder = os.path.join('static/images')
 
 @app.route("/")
 @app.route("/index")
 def home():
-    background_filename = os.path.join(files_folder, "BlurredPurdueBackground.jpg")
+    background_filename = os.path.join(images_folder, "BlurredPurdueBackground.jpg")
     return render_template("index.html", background=background_filename)
 
 @app.route("/projects")

@@ -1,0 +1,13 @@
+#home-jumbotron {
+    background-image: url("/static/images/BlurredPurdueBackground.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#home-container {
+    flex-wrap: wrap;
+    display: grid;
+    grid-gap: 50px;
+    grid-template-columns: auto auto;
+}
