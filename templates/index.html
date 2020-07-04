@@ -8,27 +8,14 @@
         <p style="font-size: 20px">Purdue University Computer Engineering Class of 2022</p>
     </div>
 </div>
-<!--<hr class="featurette-divider">-->
 <div class="container_home" id="home-container">
-<div class="row">
-  <div class="col-sm-6">
-    <div class="card">
-      <div class="card-body">
-        <h5 class="card-title">Special title treatment</h5>
-        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-        <a href="#" class="btn btn-primary">Go somewhere</a>
-      </div>
+    {% for proj in projects %}
+    <div class="project-card" style="background-image: url('{{ images + proj.image }}');
+        height: 40vw; width: 40vw; background-size: cover; background-position: center;
+        background-repeat: no-repeat; margin: auto; padding: 10px; text-align: center;">
+        <h2 class="project-card-title">{{ proj.name }}</h2>
+        <h4 class="project-card-desc">{{ proj.desc }}</h4>
     </div>
-  </div>
-  <div class="col-sm-6">
-    <div class="card">
-      <div class="card-body">
-        <h5 class="card-title">Special title treatment</h5>
-        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-        <a href="#" class="btn btn-primary">Go somewhere</a>
-      </div>
-    </div>
-  </div>
-</div>
+    {% endfor %}
 </div>
 {% endblock %}
