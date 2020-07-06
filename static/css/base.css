@@ -1,0 +1,100 @@
+body {
+    background-color: #f8f8f8;
+}
+
+#home-jumbotron {
+    background-image: url("/static/images/BlurredPurdueBackground.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#home-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-row-gap: 8vw;
+}
+
+#home-footer {
+    height: 4vw;
+}
+
+.project-card {
+    height: 40vw;
+    width: 40vw;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+    filter: saturate(0%);
+    -webkit-transition: filter 0.5s;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.project-card:hover {
+    filter: saturate(100%);
+    -webkit-transition: filter 0.5s;
+}
+
+.project-card-title {
+    font-size: 4vw;
+    padding-top: 16.5vw;
+}
+
+.project-card-desc {
+    font-size: 3vw;
+}
+
+.project-card > .project-card-desc {
+    opacity: 0;
+    -webkit-transition: opacity 0.5s;
+}
+
+.project-card:hover > .project-card-desc {
+    opacity: 1;
+    -webkit-transition: opacity 0.5s;
+}
+
+.contact-image {
+    background-image: url("/static/images/warmup.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    margin: auto;
+    width: 50vh;
+    height: 50vh;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#contact-container {
+    margin: auto;
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 75vw;
+    height: 20vw;
+    text-align: center;
+}
+
+#linkedin-logo, #github-logo, #email-logo {
+    margin: auto;
+    width: 15vh;
+    height: 15vh;
+}
+
+#linkedin-logo {
+    grid-column: 1;
+}
+
+#github-logo {
+    grid-column: 2;
+}
+
+#email-logo {
+    grid-column: 3;
+}
