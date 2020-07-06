@@ -1,9 +1,10 @@
-from flask import Flask, redirect, url_for, render_template
+from flask import Flask, send_from_directory, render_template
 import os, json, jsonpickle
 
 app = Flask(__name__)
 
 images_folder = os.path.join('static/images/')
+files_folder = os.path.join('static/files/')
 
 class Project(object):
     def __init__(self, name="name", desc="desc", image="image", link="link"):
@@ -39,7 +40,7 @@ def home():
 
 @app.route("/resume")
 def resume():
-    return render_template("resume.html")
+    return send_from_directory(files_folder, "resume.pdf")
 
 @app.route("/contact")
 def contact():
