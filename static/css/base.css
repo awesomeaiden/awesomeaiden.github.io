@@ -83,8 +83,10 @@ body {
 
 #linkedin-logo, #github-logo, #email-logo {
     margin: auto;
-    width: 15vh;
-    height: 15vh;
+    width: 15vw;
+    height: 15vw;
+    max-width: 15vh;
+    max-height: 15vh;
 }
 
 #linkedin-logo {
