@@ -77,7 +77,7 @@ body {
     grid-template-rows: auto;
     grid-template-columns: 1fr 1fr 1fr;
     width: 75vw;
-    height: 20vw;
+    max-height: 15vh;
     text-align: center;
 }
 
