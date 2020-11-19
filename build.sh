@@ -1,5 +1,5 @@
 #!/bin/sh
 
 echo Building and pushing website
-python app.py build
+python3 app.py build
 git subtree push --prefix build github master
