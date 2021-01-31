@@ -40,5 +40,11 @@
     "desc": "Emergency response robotics prototype",
     "image": "GEARS_blurred.jpg",
     "link": "https://docs.google.com/presentation/d/1eXBolskMNm22fAsCQjdICQUCxqP3z0u6PAk4YcJ9S0k/edit?usp=sharing"
+  },
+  "vrlearning": {
+    "name": "VR Learning",
+    "desc": "Virtual reality learning experiment",
+    "image": "VR_blurred.jpg",
+    "link": "https://portfolium.com/entry/efficacy-of-virtual-reality-learning-res-paper"
   }
 }
