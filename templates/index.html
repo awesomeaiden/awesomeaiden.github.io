@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+{% block title %}Aiden Gonzalez{% endblock %}
+{% block content %}
+<div class="jumbotron" id="home-jumbotron">
+    <div class="bg-image"></div>
+    <div class="container">
+        <h1 class="display-3">Aiden Gonzalez</h1>
+        <p style="font-size: 20px">Purdue University Computer Engineering Student</p>
+    </div>
+</div>
+<div class="container_home" id="home-container">
+    {% for proj in projects %}
+    <div class="project-card" onclick="location.href='{{ proj.link }}'"
+         style="background-image: url('{{ images + proj.image }}'); padding-left: {{ proj.padding }}vw">
+        <h2 class="project-card-title">{{ proj.name }}</h2>
+        <h4 class="project-card-desc">{{ proj.desc }}</h4>
+    </div>
+    {% endfor %}
+</div>
+<div id="home-footer"></div>
+{% endblock %}

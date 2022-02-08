@@ -1,0 +1,56 @@
+{
+  "tapin": {
+    "name": "TapIn!",
+    "desc": "Social media sharing tool",
+    "image": "tapin_blurred.png",
+    "link": "https://devpost.com/software/tapin-nhebcv"
+  },
+  "hydrate": {
+    "name": "hydRate",
+    "desc": "Angular web application with firebase database",
+    "image": "hydrate_blurred.jpg",
+    "link": "https://devpost.com/software/hydrate-b4lkoa"
+  },
+  "openair-assistant": {
+    "name": "OpenAir Assistant",
+    "desc": "Full Stack Slack App MVP",
+    "image": "OA_blurred.jpg",
+    "link": "https://portfolium.com/entry/openair-assistant-full-stack-slack-app-mvp"
+  },
+  "rockocmos-cv": {
+    "name": "Pockocmoc-CV",
+    "desc": "KNN-powered OCR using OpenCV",
+    "image":"OCR_blurred.jpg",
+    "link": "https://docs.google.com/presentation/d/1sODOOVlgt9HXzT0u5bOyVv8JkrRSZQhB7niQPqRTxF4/edit?usp=sharing"
+  },
+  "allocation": {
+    "name": "Payroll Allocation",
+    "desc": "End-to-end automated payroll allocation system",
+    "image": "Allocation_blurred.jpg",
+    "link": "https://portfolium.com/entry/payroll-automation-system"
+  },
+  "cicd": {
+    "name": "CI/CD Pipeline",
+    "desc": "Template CI/CD Pipeline for Kotlin API Development",
+    "image": "CICD_blurred.jpg",
+    "link": "https://portfolium.com/entry/starter-cicd-pipeline-for-kotlin-api-development"
+  },
+  "macro": {
+    "name": "MACRO",
+    "desc": "Robotic Mars rover prototype",
+    "image": "MACRO_blurred.jpg",
+    "link": "https://portfolium.com/entry/project-3-autonomous-robotics"
+  },
+  "gears": {
+    "name": "GEARS",
+    "desc": "Emergency response robotics prototype",
+    "image": "GEARS_blurred.jpg",
+    "link": "https://docs.google.com/presentation/d/1eXBolskMNm22fAsCQjdICQUCxqP3z0u6PAk4YcJ9S0k/edit?usp=sharing"
+  },
+  "vrlearning": {
+    "name": "VR Learning",
+    "desc": "Virtual reality learning experiment",
+    "image": "VR_blurred.jpg",
+    "link": "https://portfolium.com/entry/efficacy-of-virtual-reality-learning-res-paper"
+  }
+}
