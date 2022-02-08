@@ -1,8 +1,8 @@
 #!/bin/sh
 
 echo Building and pushing website
-rm -r build/*
+rm -r docs/*
 python3 app.py build
-git add build
-git commit -m "Build update"
+git add docs
+git commit -m "Docs build update"
 git push
