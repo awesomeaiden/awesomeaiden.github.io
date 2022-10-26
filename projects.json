@@ -1,4 +1,10 @@
 {
+  "lantern": {
+    "name": "Lantern",
+    "desc": "Small business accounting app",
+    "image": "lantern_blurred.jpg",
+    "link": "https://portfolium.com/entry/lantern-open-source-accounting-app"
+  },
   "tapin": {
     "name": "TapIn!",
     "desc": "Social media sharing tool",
@@ -17,11 +23,11 @@
     "image": "OA_blurred.jpg",
     "link": "https://portfolium.com/entry/openair-assistant-full-stack-slack-app-mvp"
   },
-  "rockocmos-cv": {
-    "name": "Pockocmoc-CV",
-    "desc": "KNN-powered OCR using OpenCV",
-    "image":"OCR_blurred.jpg",
-    "link": "https://docs.google.com/presentation/d/1sODOOVlgt9HXzT0u5bOyVv8JkrRSZQhB7niQPqRTxF4/edit?usp=sharing"
+  "fastapi": {
+    "name": "Package Registry",
+    "desc": "Python FastAPI package registry",
+    "image": "fastapi_blurred.jpg",
+    "link": "https://portfolium.com/entry/package-registry-api"
   },
   "allocation": {
     "name": "Payroll Allocation",
@@ -29,23 +35,53 @@
     "image": "Allocation_blurred.jpg",
     "link": "https://portfolium.com/entry/payroll-automation-system"
   },
+  "rockocmos-cv": {
+    "name": "Pockocmoc-CV",
+    "desc": "KNN-powered OCR using OpenCV",
+    "image":"OCR_blurred.jpg",
+    "link": "https://docs.google.com/presentation/d/1sODOOVlgt9HXzT0u5bOyVv8JkrRSZQhB7niQPqRTxF4/edit?usp=sharing"
+  },
+  "regex": {
+    "name": "Regex Comprehension",
+    "desc": "An experimental tool for studying regex comprehension methods",
+    "image": "regex_blurred.jpg",
+    "link": "https://portfolium.com/entry/evaluation-of-regex-comprehension-tools"
+  },
+  "convolution": {
+    "name": "AHB Convolver",
+    "desc": "Verilog AHB convolver prototype",
+    "image": "convolution_blurred",
+    "link": "https://portfolium.com/entry/ahb-connected-2d-convolver-module-prototype"
+  },
+  "yolo": {
+    "name": "YOLO Object Detection",
+    "desc": "PyTorch implementation of you-only-look-once object detection",
+    "image": "yolo_blurred.jpg",
+    "link": "https://portfolium.com/entry/yolo-object-detection-implementation"
+  },
   "cicd": {
     "name": "CI/CD Pipeline",
     "desc": "Template CI/CD Pipeline for Kotlin API Development",
     "image": "CICD_blurred.jpg",
     "link": "https://portfolium.com/entry/starter-cicd-pipeline-for-kotlin-api-development"
   },
+  "bleled": {
+    "name": "BLE LEDs",
+    "desc": "Bluetooth-connected Arduino LED strip controller",
+    "image": "bleled_blurred.jpg",
+    "link": "https://portfolium.com/entry/bluetooth-controlled-led-strip"
+  },
+  "pong": {
+    "name": "Microcontroller Pong",
+    "desc": "Pong-style playable microcontroller game",
+    "image": "pong_blurred.jpg",
+    "link": "https://portfolium.com/entry/microcontroller-pong-game"
+  },
   "macro": {
     "name": "MACRO",
     "desc": "Robotic Mars rover prototype",
     "image": "MACRO_blurred.jpg",
     "link": "https://portfolium.com/entry/project-3-autonomous-robotics"
-  },
-  "gears": {
-    "name": "GEARS",
-    "desc": "Emergency response robotics prototype",
-    "image": "GEARS_blurred.jpg",
-    "link": "https://docs.google.com/presentation/d/1eXBolskMNm22fAsCQjdICQUCxqP3z0u6PAk4YcJ9S0k/edit?usp=sharing"
   },
   "vrlearning": {
     "name": "VR Learning",
