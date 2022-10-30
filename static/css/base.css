@@ -9,10 +9,10 @@ body {
     background-repeat: no-repeat;
 }
 
-#home-container {
+#project-container {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-row-gap: 8vw;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-row-gap: 3vw;
 }
 
 #home-footer {
@@ -20,8 +20,9 @@ body {
 }
 
 .project-card {
-    height: 30vw;
-    width: 30vw;
+    height: 280px;
+    width: 280px;
+    display: table;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -39,21 +40,25 @@ body {
     -webkit-transition: filter 0.5s;
 }
 
+#project-info {
+    display: table-cell;
+    vertical-align: middle;
+}
+
 .project-card-title {
-    font-size: 3vw;
-    padding-top: 12vw;
+    font-size: 35px;
 }
 
 .project-card-desc {
-    font-size: 2vw;
+    font-size: 20px;
 }
 
-.project-card > .project-card-desc {
+.project-card > #project-info > .project-card-desc {
     opacity: 0;
     -webkit-transition: opacity 0.5s;
 }
 
-.project-card:hover > .project-card-desc {
+.project-card:hover > #project-info > .project-card-desc {
     opacity: 1;
     -webkit-transition: opacity 0.5s;
 }

@@ -8,12 +8,18 @@
         <p style="font-size: 20px">Purdue University Computer Engineering Student</p>
     </div>
 </div>
-<div class="container_home" id="home-container">
+<div class="container" id="bio-container" style="background-color: aqua; height: 50px">
+    content
+</div>
+<div class="container" id="project-container">
     {% for proj in projects %}
     <div class="project-card" onclick="location.href='{{ proj.link }}'"
          style="background-image: url('{{ images + proj.image }}'); padding-left: {{ proj.padding }}vw">
-        <h2 class="project-card-title">{{ proj.name }}</h2>
-        <h4 class="project-card-desc">{{ proj.desc }}</h4>
+        <div id="project-info">
+            <h2 class="project-card-title">{{ proj.name }}</h2>
+            <h4 class="project-card-desc">{{ proj.desc }}</h4>
+        </div>
+
     </div>
     {% endfor %}
 </div>
