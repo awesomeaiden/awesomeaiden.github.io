@@ -50,7 +50,7 @@
   "convolution": {
     "name": "AHB Convolver",
     "desc": "Verilog AHB convolver prototype",
-    "image": "convolution_blurred",
+    "image": "convolution_blurred.jpg",
     "link": "https://portfolium.com/entry/ahb-connected-2d-convolver-module-prototype"
   },
   "yolo": {

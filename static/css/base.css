@@ -7,12 +7,35 @@ body {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    margin: 0;
 }
 
 #project-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    grid-row-gap: 3vw;
+    grid-row-gap: 40px;
+}
+
+#bio-info {
+    margin: 20px;
+}
+
+#bio-photo {
+    border-radius: 25px;
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+}
+
+#bio-container {
+    height: 400px;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: grid;
+    grid-template-columns: 3fr 2fr;
 }
 
 #home-footer {
@@ -20,8 +43,8 @@ body {
 }
 
 .project-card {
-    height: 280px;
-    width: 280px;
+    height: 300px;
+    width: 300px;
     display: table;
     background-size: cover;
     background-position: center;

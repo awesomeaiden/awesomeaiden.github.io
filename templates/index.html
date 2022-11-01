@@ -8,8 +8,12 @@
         <p style="font-size: 20px">Purdue University Computer Engineering Student</p>
     </div>
 </div>
-<div class="container" id="bio-container" style="background-color: aqua; height: 50px">
-    content
+<div id="bio-container">
+    <div id="bio-info">
+        <h2>I am a </h2>
+        <h4>Below you'll find many of the personal, professional, and academic projects I've completed recently!</h4>
+    </div>
+    <img id="bio-photo" src="/static/images/bio_photo.jpg" class="img-fluid" alt="Responsive image">
 </div>
 <div class="container" id="project-container">
     {% for proj in projects %}
@@ -19,7 +23,6 @@
             <h2 class="project-card-title">{{ proj.name }}</h2>
             <h4 class="project-card-desc">{{ proj.desc }}</h4>
         </div>
-
     </div>
     {% endfor %}
 </div>
