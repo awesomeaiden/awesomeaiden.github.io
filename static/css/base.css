@@ -22,20 +22,20 @@ body {
 
 #bio-photo {
     border-radius: 25px;
-    height: 400px;
+    height: 500px;
     width: 100%;
     object-fit: cover;
 }
 
 #bio-container {
-    height: 400px;
+    height: 500px;
     width: 100%;
     margin-top: 10px;
     margin-bottom: 10px;
     padding-left: 10px;
     padding-right: 10px;
     display: grid;
-    grid-template-columns: 3fr 2fr;
+    grid-template-columns: 1fr 1fr;
 }
 
 #home-footer {
