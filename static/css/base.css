@@ -17,25 +17,25 @@ body {
 }
 
 #bio-info {
-    margin: 20px;
+    margin: 30px;
 }
 
 #bio-photo {
     border-radius: 25px;
-    height: 500px;
+    height: 30vw;
     width: 100%;
     object-fit: cover;
 }
 
 #bio-container {
-    height: 500px;
+    height: auto;
     width: 100%;
     margin-top: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
     padding-left: 10px;
     padding-right: 10px;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
 }
 
 #home-footer {
