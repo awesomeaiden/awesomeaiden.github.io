@@ -17,7 +17,9 @@ body {
 }
 
 #bio-info {
-    margin: 30px;
+    padding-left: 30px;
+    border-radius: 25px;
+    margin: 25px;
 }
 
 #bio-photo {
@@ -35,7 +37,33 @@ body {
     padding-left: 10px;
     padding-right: 10px;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+}
+
+#skills-info {
+    border-radius: 25px;
+    margin: 25px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#skills-photo {
+    border-radius: 25px;
+    height: 30vw;
+    width: 100%;
+    object-fit: contain;
+}
+
+#skills-container {
+    height: auto;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
 }
 
 #home-footer {
