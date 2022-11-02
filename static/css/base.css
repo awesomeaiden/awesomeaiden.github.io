@@ -20,6 +20,7 @@ body {
     padding-left: 30px;
     border-radius: 25px;
     margin: 25px;
+    max-height: 400px;
 }
 
 #bio-photo {
@@ -27,13 +28,17 @@ body {
     height: 30vw;
     width: 100%;
     object-fit: cover;
+    max-height: 400px;
 }
 
 #bio-container {
     height: auto;
     width: 100%;
+    max-width: 1500px;
     margin-top: 10px;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
     padding-left: 10px;
     padding-right: 10px;
     display: grid;
@@ -46,6 +51,7 @@ body {
     display: flex;
     justify-content: center;
     flex-direction: column;
+    max-height: 400px;
 }
 
 #skills-photo {
@@ -53,13 +59,17 @@ body {
     height: 30vw;
     width: 100%;
     object-fit: contain;
+    max-height: 400px;
 }
 
 #skills-container {
     height: auto;
     width: 100%;
+    max-width: 1500px;
     margin-top: 10px;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
     padding-left: 10px;
     padding-right: 10px;
     display: grid;
