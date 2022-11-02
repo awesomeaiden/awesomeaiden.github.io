@@ -7,12 +7,83 @@ body {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    margin: 0;
 }
 
-#home-container {
+#project-container {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-row-gap: 8vw;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-row-gap: 40px;
+}
+
+#bio-info {
+    padding-left: 30px;
+    border-radius: 25px;
+    margin: 25px;
+    max-height: 400px;
+}
+
+#bio-photo {
+    border-radius: 25px;
+    height: 30vw;
+    width: 100%;
+    object-fit: cover;
+    max-height: 400px;
+}
+
+#bio-container {
+    height: auto;
+    width: 100%;
+    max-width: 1500px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+}
+
+#skills-info {
+    border-radius: 25px;
+    margin: 25px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    max-height: 400px;
+}
+
+#skills-photo {
+    border-radius: 25px;
+    height: 30vw;
+    width: 100%;
+    object-fit: contain;
+    max-height: 400px;
+}
+
+#skills-container {
+    height: auto;
+    width: 100%;
+    max-width: 1500px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+}
+
+#project-header {
+    height: auto;
+    width: 100%;
+    max-width: 1200px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #home-footer {
@@ -20,8 +91,9 @@ body {
 }
 
 .project-card {
-    height: 30vw;
-    width: 30vw;
+    height: 300px;
+    width: 300px;
+    display: table;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -39,21 +111,25 @@ body {
     -webkit-transition: filter 0.5s;
 }
 
+#project-info {
+    display: table-cell;
+    vertical-align: middle;
+}
+
 .project-card-title {
-    font-size: 3vw;
-    padding-top: 12vw;
+    font-size: 35px;
 }
 
 .project-card-desc {
-    font-size: 2vw;
+    font-size: 20px;
 }
 
-.project-card > .project-card-desc {
+.project-card > #project-info > .project-card-desc {
     opacity: 0;
     -webkit-transition: opacity 0.5s;
 }
 
-.project-card:hover > .project-card-desc {
+.project-card:hover > #project-info > .project-card-desc {
     opacity: 1;
     -webkit-transition: opacity 0.5s;
 }
