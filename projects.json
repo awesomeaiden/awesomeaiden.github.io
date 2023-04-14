@@ -23,6 +23,12 @@
     "image": "OA_blurred.jpg",
     "link": "https://portfolium.com/entry/openair-assistant-full-stack-slack-app-mvp"
   },
+  "lyftr": {
+    "name": "Lyftr",
+    "desc": "Workout tracking platform",
+    "image": "lyftr_blurred.jpg",
+    "link": "https://devpost.com/software/lyftr"
+  },
   "fastapi": {
     "name": "Package Registry",
     "desc": "Python FastAPI package registry",
