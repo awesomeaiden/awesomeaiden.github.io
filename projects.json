@@ -12,7 +12,7 @@
     "link": "https://devpost.com/software/tapin-nhebcv"
   },
   "hydrate": {
-    "name": "hydRate",
+    "name": "hydRate 1.0",
     "desc": "Angular web application with firebase database",
     "image": "hydrate_blurred.jpg",
     "link": "https://devpost.com/software/hydrate-b4lkoa"
@@ -82,17 +82,5 @@
     "desc": "Pong-style playable microcontroller game",
     "image": "pong_blurred.jpg",
     "link": "https://portfolium.com/entry/microcontroller-pong-game"
-  },
-  "macro": {
-    "name": "MACRO",
-    "desc": "Robotic Mars rover prototype",
-    "image": "MACRO_blurred.jpg",
-    "link": "https://portfolium.com/entry/project-3-autonomous-robotics"
-  },
-  "vrlearning": {
-    "name": "VR Learning",
-    "desc": "Virtual reality learning experiment",
-    "image": "VR_blurred.jpg",
-    "link": "https://portfolium.com/entry/efficacy-of-virtual-reality-learning-res-paper"
   }
 }
