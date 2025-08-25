@@ -135,7 +135,7 @@ body {
 }
 
 .contact-image {
-    background-image: url("/static/images/warmup.jpg");
+    background-image: url("/static/images/profile.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
